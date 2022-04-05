@@ -1,0 +1,31 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:jest/recommended",
+        "plugin:jsdoc/recommended",
+        "plugin:sonarjs/recommended"
+    ],
+    "plugins": ["jest", "jsdoc", "sonarjs"],
+    "parserOptions": {
+        "ecmaVersion": 10,
+        "sourceType": "module"
+    },
+    "rules": {
+        "jsdoc/check-param-names": "error",
+        "jsdoc/valid-types": "error",
+        "jsdoc/require-param": "error",
+        "jsdoc/require-param-name": "error",
+        "jsdoc/require-param-type": "error",
+        "jsdoc/require-returns": "error",
+        "jsdoc/require-returns-type": "error",
+        "jsdoc/implements-on-classes": "error",
+        "jsdoc/check-tag-names": "error",
+        "jsdoc/check-alignment": "error"
+    }
+}

@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - 12
+
+git:
+  submodules: false
+
+sudo: required
+dist: trusty
+
+cache:
+  directories:
+    - ./node_modules
+
+install:
+  - npm ci
+  - npm run lint
+
+script:
+  - npm test

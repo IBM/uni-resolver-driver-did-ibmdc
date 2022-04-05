@@ -1,0 +1,17 @@
+{
+    "NODE_ENV": "default",
+    "APP_NAME": "uni-resolver-driver-did-ibmdc",
+    "API_BASE": "/identifiers",
+    "API_VERSION": {
+        "V1": "/v1",
+        "1.0": "/1.0"
+    },
+    "PORT": "3000",
+    "PUBLIC_BFF_URL": {
+        "DEV": "https://dev.lcn-cluster-dev-qa-app-583c1d2c1a459ad4539801325cd4ba78-0000.us-south.containers.appdomain.cloud/api/public",
+        "QA": "http://qa.learningcredentialnetwork.com/api/public",
+        "STAGING": "https://staging.learningcredentialnetwork.com/api/public",
+        "PREPROD": "https://preprod.learningcredentialnetwork.com/api/public",
+        "PROD": "https://digitalcredentials.ibm.com/api/public"
+    }
+}

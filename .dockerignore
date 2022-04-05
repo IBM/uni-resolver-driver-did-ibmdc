@@ -1,0 +1,17 @@
+node_modules/
+node_modules_linux/
+Dockerfile
+.dockerignore
+.gitignore
+coverage
+tests
+pact
+commitlint.config.js
+.prettierignore
+.github
+.husky
+Jenkinsfile
+.travis.yml
+jest.*
+.vscode
+.npmrc

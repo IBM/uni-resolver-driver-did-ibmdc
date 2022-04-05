@@ -1,0 +1,36 @@
+{
+    "psi-header.config": {
+        "blankLinesAfter": 1,
+        "forceToTop": true
+    },
+    "psi-header.lang-config": [
+        {
+            "language": "*",
+            "begin": "/*",
+            "prefix": " *",
+            "end": "*/"
+        }
+    ],
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "include": ["javascript"],
+        "autoHeader": "manualSave",
+        "enforceHeader": true
+    },
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "********************************************************************",
+                " IBM Confidential",
+                " 6949-08P",
+                "",
+                " © Copyright IBM Corp. <<filecreated('YYYY')>> All Rights Reserved",
+                "",
+                " US Government Users Restricted Rights - Use, duplication or",
+                " disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+                "********************************************************************"
+            ]
+        }
+    ]
+}
